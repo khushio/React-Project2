@@ -1,0 +1,73 @@
+.calculator {
+    background-color: #163775;
+    border: 2px solid #d6d6d6;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .name{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  .calculator-display {
+    font-size: 2rem;
+    width: 380px;
+    height: 100px;
+    padding: 10px;
+    padding-left: -24px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(145, 183, 221);
+    color: #333;
+    outline: none;
+    text-align: right;
+  }
+  
+  .calculator-buttons .row {
+    margin-bottom: -2.4px;
+  }
+  
+  .calculator-buttons button {
+    font-size: 1.5rem;
+    width: 75px;
+    height: 75px;
+    border-radius: 20%;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  /* Customize the button colors */
+  .calculator-buttons button.btn-light {
+    background-color:  #77d8d8;
+    color: #333;
+  }
+  
+  .calculator-buttons button.btn-primary {
+    background-color: #ff6f61;
+    color: #fff;
+  }
+  
+  .calculator-buttons button.btn-secondary {
+    background-color:darkblue;
+    color: rgb(5, 5, 5);
+  }
+  
+  .calculator-buttons button.btn-info {
+    background-color:indigo;
+    color: rgb(0, 0, 0);
+  }
+  
+  .calculator-buttons button:hover {
+    background-color: #dcdcdc;
+  }
+  
+  
+  
+  
